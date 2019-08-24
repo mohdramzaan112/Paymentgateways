@@ -16,7 +16,7 @@ if(!empty($_POST['stripeToken'])){
     //set api key
     $stripe = array(
       "secret_key"      => "secret_key",
-      "publishable_key" => "pk_test_rEssviHPC1qPIFuogZEAnT8A00I5yhQiIj"
+      "publishable_key" => "pk_test_*****"
     );
     
     \Stripe\Stripe::setApiKey($stripe['secret_key']);
