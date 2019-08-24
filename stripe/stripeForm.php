@@ -42,7 +42,7 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script type="text/javascript">
     //set your publishable key
-    Stripe.setPublishableKey('pk_test_rEssviHPC1qPIFuogZEAnT8A00I5yhQiIj');
+    Stripe.setPublishableKey('pk_test_*******');
 
     //callback to handle the response from stripe
     function stripeResponseHandler(status, response) {
